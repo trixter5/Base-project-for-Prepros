@@ -1,0 +1,118 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "flexbox-grid-stylus",
+        "scope": null,
+        "escapedName": "flexbox-grid-stylus",
+        "name": "flexbox-grid-stylus",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "D:\\work\\2017\\November\\veresk\\veresk"
+    ]
+  ],
+  "_from": "flexbox-grid-stylus@latest",
+  "_id": "flexbox-grid-stylus@3.2.2",
+  "_inCache": true,
+  "_location": "/flexbox-grid-stylus",
+  "_nodeVersion": "6.3.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/flexbox-grid-stylus-3.2.2.tgz_1468961496936_0.6653381688520312"
+  },
+  "_npmUser": {
+    "name": "vivid-web",
+    "email": "info@vivid-websolutions.nl"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "flexbox-grid-stylus",
+    "scope": null,
+    "escapedName": "flexbox-grid-stylus",
+    "name": "flexbox-grid-stylus",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/flexbox-grid-stylus/-/flexbox-grid-stylus-3.2.2.tgz",
+  "_shasum": "e007c41e928774ea065db8ee6099346672894b75",
+  "_shrinkwrap": null,
+  "_spec": "flexbox-grid-stylus",
+  "_where": "D:\\work\\2017\\November\\veresk\\veresk",
+  "author": {
+    "name": "Vivid Websolutions",
+    "email": "info@vivid-websolutions.nl"
+  },
+  "bugs": {
+    "url": "https://github.com/vivid-web/flexbox-grid-stylus/issues"
+  },
+  "dependencies": {},
+  "description": "A simple flexbox CSS grid system",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.11",
+    "gulp-jade": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-stylus": "^2.5.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "e007c41e928774ea065db8ee6099346672894b75",
+    "tarball": "https://registry.npmjs.org/flexbox-grid-stylus/-/flexbox-grid-stylus-3.2.2.tgz"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "gitHead": "ea0a5dd237d3b8a57188f4f5394dbe5e8576bfb4",
+  "homepage": "http://flexboxgrid.vivid-websolutions.nl",
+  "keywords": [
+    "vivid",
+    "websolutions",
+    "flexbox",
+    "grid",
+    "stylus",
+    "bem",
+    "responsive",
+    "liquid",
+    "css",
+    "framework",
+    "skeleton",
+    "front-end",
+    "frontend"
+  ],
+  "license": "MIT",
+  "main": "dist/flexbox-grid.css",
+  "maintainers": [
+    {
+      "name": "petervmeijgaard",
+      "email": "peter@vivid-websolutions.nl"
+    },
+    {
+      "name": "vivid-web",
+      "email": "info@vivid-websolutions.nl"
+    }
+  ],
+  "name": "flexbox-grid-stylus",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivid-web/flexbox-grid-stylus.git"
+  },
+  "scripts": {
+    "build": "gulp",
+    "dist": "gulp build",
+    "docs": "gulp docs",
+    "prepublish": "npm run build"
+  },
+  "version": "3.2.2"
+}
