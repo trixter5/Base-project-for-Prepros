@@ -16,33 +16,23 @@
     <link rel="stylesheet" href="csses/style.css"/>
   </head>
   <body>
-    <header class="section header">
-      <div class="grid grid--container">
-        <div class="row">
-          <div class="col col--xs-6">
-            <div class="logo"></div>
-          </div>
-          <div class="col col--xs-6"></div>
-        </div>
-      </div>
-    </header>
     <section class="section section--block-1">
       <div class="grid grid--container">
         <div class="row">
-          <div class="col col--xs-10">
+          <div class="col col--xs-9">
             <div class="section--block-1__content">
               <h2>КАЛИБР-ПАРК</h2>
               <h1>Здание Технопарка «Калибр» — объект инновационной инфраструктуры города</h1><span>Застройщик — ОАО «Калибр»</span>
               <div class="btns-group"><a class="btn btn--fill" href="/">Стать арендатором</a><a class="btn btn--glass" href="/">ОБРАТНЫЙ ЗВОНОК</a></div>
             </div>
           </div>
-          <div class="col col--xs-2">
-            <div class="section--block-1__days">
+          <div class="col col--xs-3 content--xs-right">
+            <div class="section--block-1__days clearfix">
               <div>0</div>
               <div>6</div>
               <div>5</div>
-              <div class="section--block-1__days-descriptor">Дней до запуска объекта в эксплуатацию</div>
             </div>
+            <div class="section--block-1__days-descriptor">Дней до запуска <br> объекта в эксплуатацию</div>
           </div>
         </div>
       </div>
@@ -52,20 +42,21 @@
         <h2>Расположение</h2>
         <p class="section--block-2__subhead">Инфраструктурный объект «Калибр-Парк» расположен на северо-востоке Москвы, имеет удобную пешеходную и транспортную доступность</p>
         <div class="section--block-2__box">
-          <div class="row">
-            <div class="col col--xs-12 col--md-6">
-              <div class="section--block-2__map"></div>
+          <div class="row row--no-gutters">
+            <div class="col col--xs-12 col--md-6 col--no-gutters">
+              <div class="section--block-2__map"><img src="images/map.jpg" alt=""/></div>
             </div>
-            <div class="col col--xs-12 col--md-6">
+            <div class="col col--xs-12 col--md-6 col--no-gutters">
               <div class="section--block-2__box-content">
                 <p>Многофункциональный деловой центр "КАЛИБР" предлагает удобное рабочее пространство в Останкинском районе СВАО г. Москвы. В непосредственной близости станции метро, ж/д станций, основных городских автомагистралей</p>
               </div>
               <div class="section--block-2__box-list">
-                <div class="section--block-2__box-row"><span>1</span><span>0,5 км до станции метро Алексеевская</span><span><span>5 минут</span><span>пешком</span></span></div>
+                <div class="section--block-2__box-row"><span>01</span><span>0,5 км до станции метро Алексеевская</span><span><span>5 минут</span><span>пешком</span></span></div>
+                <div class="section--block-2__box-row"><span>02</span><span>0,5 км до Проспекта Мира</span><span><span>1 минута</span><span>пешком</span></span></div>
               </div>
             </div>
-          </div>
-        </div><img src="images/3.jpg" srcset="images/3@2x.jpg 2x, images/3@3x.jpg 3x"/>
+          </div><img class="img-responsive" src="images/place-img.jpg" srcset="images/place-img@2x.jpg 2x, images/place-img@3x.jpg 3x"/>
+        </div>
       </div>
     </section>
     <section class="section section--block-3">
@@ -165,17 +156,17 @@
               </tr>
             </table>
           </div>
-          <div class="col col--xs-12 col--lg-6"><img src="images/img-4.jpg" srcset="images/img-4@2x.jpg 2x, images/img-4@3x.jpg 3x"/></div>
+          <div class="col col--xs-12 col--lg-6"><img src="images/chars.jpg" srcset="images/chars@2x.jpg 2x, images/chars@3x.jpg 3x"/></div>
         </div>
       </div>
     </section>
     <section class="section section--block-6">
       <div class="grid grid--container">
         <div class="row">
-          <div class="col col--xs-12 col--lg-7">
-            <div class="section--block-6__box"><img src="img/img.jpg" srcset="img/img@2x.jpg 2x, img/img@3x.jpg 3x"/></div>
+          <div class="col col--xs-12 col--lg-8">
+            <div class="section--block-6__box"><img src="images/preview.jpg" srcset="images/preview@2x.jpg 2x, images/preview@3x.jpg 3x"/></div>
           </div>
-          <div class="col col--xs-12 col--lg-5">
+          <div class="col col--xs-12 col--lg-4">
             <h2>Общий вид здания</h2>
             <p>Помещения сдаются с отделкой по стандартам арендодателя или без отделки, с предоставлением арендных каникул и частичной компенсацией затрат арендатору</p>
           </div>
@@ -186,13 +177,13 @@
       <div class="grid grid--container">
         <h2>План этажей</h2>
         <div class="section--block-7_tabs">
-          <div class="section--block-7_tabs-nav">
+          <div class="section--block-7_tabs-nav col col--xs-offset-4">
             <div class="stock">План: -1 этаж</div>
-            <div><a href="">-2</a><a href="">-1</a><a href="">1</a><a href="">2</a><a href="">3</a></div>
+            <div><a href="">-2</a><a class="active" href="">-1</a><a href="">1</a><a href="">2</a><a href="">3</a></div>
           </div>
           <div class="section--block-7_tabs-content" id="tab1">
             <div class="row">
-              <div class="col col--xs-12 col--lg-3"><img src="images/3.jpg" srcset="images/3@2x.jpg 2x, images/3@3x.jpg 3x"/>
+              <div class="col col--xs-12 col--lg-3"><img src="images/stocks.png" srcset="images/stocks@2x.jpg 2x, images/stocks@3x.jpg 3x"/>
                 <div class="section--block-7__legend">
                   <h3>Условные обозначения</h3>
                   <ul>
@@ -208,13 +199,13 @@
                 </div>
               </div>
               <div class="col col--xs-12 col--lg-9">
-                <div class="section--block-7__tabsbox"><img src="images/img-plan.jpg" srcset="images/img-plan@2x.jpg 2x, images/img-plan@3x.jpg 3x"/></div>
+                <div class="section--block-7__tabsbox"><img src="images/plan.jpg" srcset="images/plan@2x.jpg 2x, images/plan@3x.jpg 3x"/></div>
               </div>
             </div>
           </div>
-          <div class="section--block-7_tabs-content" id="tab1">
+          <div class="section--block-7_tabs-content" id="tab2">
             <div class="row">
-              <div class="col col--xs-12 col--lg-3"><img src="images/3.jpg" srcset="images/3@2x.jpg 2x, images/3@3x.jpg 3x"/>
+              <div class="col col--xs-12 col--lg-3"><img src="images/stocks.png" srcset="images/stocks@2x.jpg 2x, images/stocks@3x.jpg 3x"/>
                 <div class="section--block-7__legend">
                   <h3>Условные обозначения</h3>
                   <ul>
@@ -230,13 +221,13 @@
                 </div>
               </div>
               <div class="col col--xs-12 col--lg-9">
-                <div class="section--block-7__tabsbox"><img src="images/img-plan.jpg" srcset="images/img-plan@2x.jpg 2x, images/img-plan@3x.jpg 3x"/></div>
+                <div class="section--block-7__tabsbox"><img src="images/plan.jpg" srcset="images/plan@2x.jpg 2x, images/plan@3x.jpg 3x"/></div>
               </div>
             </div>
           </div>
-          <div class="section--block-7_tabs-content" id="tab1">
+          <div class="section--block-7_tabs-content active" id="tab3">
             <div class="row">
-              <div class="col col--xs-12 col--lg-3"><img src="images/3.jpg" srcset="images/3@2x.jpg 2x, images/3@3x.jpg 3x"/>
+              <div class="col col--xs-12 col--lg-3"><img src="images/stocks.png" srcset="images/stocks@2x.jpg 2x, images/stocks@3x.jpg 3x"/>
                 <div class="section--block-7__legend">
                   <h3>Условные обозначения</h3>
                   <ul>
@@ -252,63 +243,98 @@
                 </div>
               </div>
               <div class="col col--xs-12 col--lg-9">
-                <div class="section--block-7__tabsbox"><img src="images/img-plan.jpg" srcset="images/img-plan@2x.jpg 2x, images/img-plan@3x.jpg 3x"/></div>
+                <div class="section--block-7__tabsbox"><img src="images/plan.jpg" srcset="images/plan@2x.jpg 2x, images/plan@3x.jpg 3x"/></div>
               </div>
-              <div class="section--block-7_tabs-content" id="tab1"></div>
             </div>
-            <div class="row">
-              <div class="col col--xs-12 col--lg-3"><img src="images/3.jpg" srcset="images/3@2x.jpg 2x, images/3@3x.jpg 3x"/>
-                <div class="section--block-7__legend">
-                  <h3>Условные обозначения</h3>
-                  <ul>
-                    <li class="l-1">ФОК</li>
-                    <li class="l-2">Выставочный зал</li>
-                    <li class="l-3">Помещения кафе и кухни</li>
-                    <li class="l-4">Технические помещения</li>
-                    <li class="l-5">Коридоры и санузлы</li>
-                    <li class="l-6">Лестницы, лифты</li>
-                    <li class="l-7">Вестибюли, холлы</li>
-                    <li class="l-8">Подземная автосоянка</li>
-                  </ul>
+            <div class="section--block-7_tabs-content" id="tab4">
+              <div class="row">
+                <div class="col col--xs-12 col--lg-3"><img src="images/stocks.png" srcset="images/stocks@2x.jpg 2x, images/stocks@3x.jpg 3x"/>
+                  <div class="section--block-7__legend">
+                    <h3>Условные обозначения</h3>
+                    <ul>
+                      <li class="l-1">ФОК</li>
+                      <li class="l-2">Выставочный зал</li>
+                      <li class="l-3">Помещения кафе и кухни</li>
+                      <li class="l-4">Технические помещения</li>
+                      <li class="l-5">Коридоры и санузлы</li>
+                      <li class="l-6">Лестницы, лифты</li>
+                      <li class="l-7">Вестибюли, холлы</li>
+                      <li class="l-8">Подземная автосоянка</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col col--xs-12 col--lg-9">
+                  <div class="section--block-7__tabsbox"><img src="images/plan.jpg" srcset="images/plan@2x.jpg 2x, images/plan@3x.jpg 3x"/></div>
                 </div>
               </div>
-              <div class="col col--xs-12 col--lg-9">
-                <div class="section--block-7__tabsbox"><img src="images/img-plan.jpg" srcset="images/img-plan@2x.jpg 2x, images/img-plan@3x.jpg 3x"/></div>
-              </div>
-              <div class="section--block-7_tabs-content" id="tab1"></div>
             </div>
-            <div class="row">
-              <div class="col col--xs-12 col--lg-3"><img src="images/3.jpg" srcset="images/3@2x.jpg 2x, images/3@3x.jpg 3x"/>
-                <div class="section--block-7__legend">
-                  <h3>Условные обозначения</h3>
-                  <ul>
-                    <li class="l-1">ФОК</li>
-                    <li class="l-2">Выставочный зал</li>
-                    <li class="l-3">Помещения кафе и кухни</li>
-                    <li class="l-4">Технические помещения</li>
-                    <li class="l-5">Коридоры и санузлы</li>
-                    <li class="l-6">Лестницы, лифты</li>
-                    <li class="l-7">Вестибюли, холлы</li>
-                    <li class="l-8">Подземная автосоянка</li>
-                  </ul>
+            <div class="section--block-7_tabs-content" id="tab5">
+              <div class="row">
+                <div class="col col--xs-12 col--lg-3"><img src="images/stocks.png" srcset="images/stocks@2x.jpg 2x, images/stocks@3x.jpg 3x"/>
+                  <div class="section--block-7__legend">
+                    <h3>Условные обозначения</h3>
+                    <ul>
+                      <li class="l-1">ФОК</li>
+                      <li class="l-2">Выставочный зал</li>
+                      <li class="l-3">Помещения кафе и кухни</li>
+                      <li class="l-4">Технические помещения</li>
+                      <li class="l-5">Коридоры и санузлы</li>
+                      <li class="l-6">Лестницы, лифты</li>
+                      <li class="l-7">Вестибюли, холлы</li>
+                      <li class="l-8">Подземная автосоянка</li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-              <div class="col col--xs-12 col--lg-9">
-                <div class="section--block-7__tabsbox"><img src="images/img-plan.jpg" srcset="images/img-plan@2x.jpg 2x, images/img-plan@3x.jpg 3x"/></div>
+                <div class="col col--xs-12 col--lg-9">
+                  <div class="section--block-7__tabsbox"><img src="images/img-plan.jpg" srcset="images/img-plan@2x.jpg 2x, images/img-plan@3x.jpg 3x"/></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <footer class="section footer">
+    <section class="section section--block-8">
       <div class="grid grid--container">
-        <div class="row row--xs-center">
-          <div class="col col--sm-6"></div>
-          <div class="col col--sm-6 text--xs--right"></div>
+        <h2>Проект входных групп</h2>
+        <div class="section--block-8__slider">
+          <div class="section--block-8__slider-item"><img src="images/slide1.jpg" alt=""/>
+            <h3>Центральная входная группа на первом этаже</h3>
+          </div>
+          <div class="section--block-8__slider-item"><img src="images/slide2.jpg" alt=""/>
+            <h3>Центральная входная группа на первом этаже</h3>
+          </div>
+          <div class="section--block-8__slider-item"><img src="images/slide3.jpg" alt=""/>
+            <h3>Центральная входная группа на первом этаже</h3>
+          </div>
+          <div class="section--block-8__slider-item"><img src="images/slide4.jpg" alt=""/>
+            <h3>Центральная входная группа на первом этаже</h3>
+          </div>
+          <div class="section--block-8__slider-item"><img src="images/slide5.jpg" alt=""/>
+            <h3>Центральная входная группа на первом этаже</h3>
+          </div>
         </div>
       </div>
-    </footer>
+    </section>
+    <section class="section section--block-8">
+      <div class="grid grid--container">
+        <h2>Будем рады ответить на ваши вопросы!</h2>
+        <div class="section--block-8__box">
+          <div class="section--block-8__boxImg"><img src="images/avatar.png" alt=""/></div>
+          <div class="section--block-8__boxName">
+            <p>Петров А.В. </p>
+            <p>Коммерческий директор ОАО «Калибр» </p>
+            <p class="box__contact">+7 (495) 956-25-89, +7 (905) 562-58-24</p>
+            <p class="box__contact">a.v.petrov@kalibroao.ru</p>
+          </div>
+          <div class="section--block-8__boxPart">
+            <p>Отдел аренды ОАО «Калибр» </p>
+            <p class="box__contact">+7 (495) 730-09-59</p>
+            <p class="box__contact">renta@kalibroao.ru</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="scripts/slick.min.js"></script>
     <script src="scripts/script.js"></script>
