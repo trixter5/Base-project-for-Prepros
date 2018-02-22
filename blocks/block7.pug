@@ -2,18 +2,18 @@ section.section.section--block-7
 	.grid.grid--container
 		h2 План этажей
 		.section--block-7_tabs
-			.section--block-7_tabs-nav.col.col--xs-offset-4
+			.section--block-7_tabs-nav.col.col--xs-offset-0.col--lg-offset-4
 				div.stock План: -1 этаж
 				div
-					a(href="") -2
-					a(href="", class="active") -1
-					a(href="") 1
-					a(href="") 2
-					a(href="") 3
+					a(href="#tab1", rel="План: -2 этаж") -2
+					a(href="#tab2", rel="План: -1 этаж" class="active") -1
+					a(href="#tab3", rel="План: 1 этаж") 1
+					a(href="#tab4" rel="План: 2 этаж") 2
+					a(href="#tab5", rel="План: 3 этаж") 3
 			.section--block-7_tabs-content#tab1
 				.row
-					.col.col--xs-12.col--lg-3
-						img(src="images/stocks.png", srcset="images/stocks@2x.jpg 2x, images/stocks@3x.jpg 3x")
+					.col.col--xs-12.col--xl-3
+						img.stocks-img(src="images/stocks.png", srcset="images/stocks@2x.png 2x, images/stocks@3x.png 3x")
 						.section--block-7__legend
 							h3 Условные обозначения
 							ul
@@ -25,13 +25,13 @@ section.section.section--block-7
 								li.l-6 Лестницы, лифты
 								li.l-7 Вестибюли, холлы
 								li.l-8 Подземная автосоянка
-					.col.col--xs-12.col--lg-9
+					.col.col--xs-12.col--xl-9.col--xs-first.col--xl-reset
 						.section--block-7__tabsbox
 							img(src="images/plan.jpg", srcset="images/plan@2x.jpg 2x, images/plan@3x.jpg 3x")
 			.section--block-7_tabs-content#tab2
 				.row
-					.col.col--xs-12.col--lg-3
-						img(src="images/stocks.png", srcset="images/stocks@2x.jpg 2x, images/stocks@3x.jpg 3x")
+					.col.col--xs-12.col--xl-3
+						img.stocks-img(src="images/stocks.png", srcset="images/stocks@2x.png 2x, images/stocks@3x.png 3x")
 						.section--block-7__legend
 							h3 Условные обозначения
 							ul
@@ -43,13 +43,13 @@ section.section.section--block-7
 								li.l-6 Лестницы, лифты
 								li.l-7 Вестибюли, холлы
 								li.l-8 Подземная автосоянка
-					.col.col--xs-12.col--lg-9
+					.col.col--xs-12.col--xl-9.col--xs-first.col--xl-reset
 						.section--block-7__tabsbox
 							img(src="images/plan.jpg", srcset="images/plan@2x.jpg 2x, images/plan@3x.jpg 3x")
 			.section--block-7_tabs-content.active#tab3
 				.row
-					.col.col--xs-12.col--lg-3
-						img(src="images/stocks.png", srcset="images/stocks@2x.jpg 2x, images/stocks@3x.jpg 3x")
+					.col.col--xs-12.col--xl-3
+						img.stocks-img(src="images/stocks.png", srcset="images/stocks@2x.png 2x, images/stocks@3x.png 3x")
 						.section--block-7__legend
 							h3 Условные обозначения
 							ul
@@ -61,42 +61,42 @@ section.section.section--block-7
 								li.l-6 Лестницы, лифты
 								li.l-7 Вестибюли, холлы
 								li.l-8 Подземная автосоянка
-					.col.col--xs-12.col--lg-9
+					.col.col--xs-12.col--xl-9.col--xs-first.col--xl-reset
 						.section--block-7__tabsbox
 							img(src="images/plan.jpg", srcset="images/plan@2x.jpg 2x, images/plan@3x.jpg 3x")
-				.section--block-7_tabs-content#tab4
-					.row
-						.col.col--xs-12.col--lg-3
-							img(src="images/stocks.png", srcset="images/stocks@2x.jpg 2x, images/stocks@3x.jpg 3x")
-							.section--block-7__legend
-								h3 Условные обозначения
-								ul
-									li.l-1 ФОК
-									li.l-2 Выставочный зал
-									li.l-3 Помещения кафе и кухни
-									li.l-4 Технические помещения
-									li.l-5 Коридоры и санузлы
-									li.l-6 Лестницы, лифты
-									li.l-7 Вестибюли, холлы
-									li.l-8 Подземная автосоянка
-						.col.col--xs-12.col--lg-9
-							.section--block-7__tabsbox
-								img(src="images/plan.jpg", srcset="images/plan@2x.jpg 2x, images/plan@3x.jpg 3x")
-				.section--block-7_tabs-content#tab5
-					.row
-						.col.col--xs-12.col--lg-3
-							img(src="images/stocks.png", srcset="images/stocks@2x.jpg 2x, images/stocks@3x.jpg 3x")
-							.section--block-7__legend
-								h3 Условные обозначения
-								ul
-									li.l-1 ФОК
-									li.l-2 Выставочный зал
-									li.l-3 Помещения кафе и кухни
-									li.l-4 Технические помещения
-									li.l-5 Коридоры и санузлы
-									li.l-6 Лестницы, лифты
-									li.l-7 Вестибюли, холлы
-									li.l-8 Подземная автосоянка
-						.col.col--xs-12.col--lg-9
-							.section--block-7__tabsbox
-								img(src="images/img-plan.jpg", srcset="images/img-plan@2x.jpg 2x, images/img-plan@3x.jpg 3x")
+			.section--block-7_tabs-content#tab4
+				.row
+					.col.col--xs-12.col--xl-3
+						img.stocks-img(src="images/stocks.png", srcset="images/stocks@2x.png 2x, images/stocks@3x.png 3x")
+						.section--block-7__legend
+							h3 Условные обозначения
+							ul
+								li.l-1 ФОК
+								li.l-2 Выставочный зал
+								li.l-3 Помещения кафе и кухни
+								li.l-4 Технические помещения
+								li.l-5 Коридоры и санузлы
+								li.l-6 Лестницы, лифты
+								li.l-7 Вестибюли, холлы
+								li.l-8 Подземная автосоянка
+					.col.col--xs-12.col--xl-9.col--xs-first.col--xl-reset
+						.section--block-7__tabsbox
+							img(src="images/plan.jpg", srcset="images/plan@2x.jpg 2x, images/plan@3x.jpg 3x")
+			.section--block-7_tabs-content#tab5
+				.row
+					.col.col--xs-12.col--xl-3
+						img.stocks-img(src="images/stocks.png", srcset="images/stocks@2x.png 2x, images/stocks@3x.png 3x")
+						.section--block-7__legend
+							h3 Условные обозначения
+							ul
+								li.l-1 ФОК
+								li.l-2 Выставочный зал
+								li.l-3 Помещения кафе и кухни
+								li.l-4 Технические помещения
+								li.l-5 Коридоры и санузлы
+								li.l-6 Лестницы, лифты
+								li.l-7 Вестибюли, холлы
+								li.l-8 Подземная автосоянка
+					.col.col--xs-12.col--xl-9.col--xs-first.col--xl-reset
+						.section--block-7__tabsbox
+							img(src="images/plan.jpg", srcset="images/plan@2x.jpg 2x, images/plan@3x.jpg 3x")

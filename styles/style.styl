@@ -44,49 +44,69 @@ body
 	display flex
 	flex-direction column
 	justify-content flex-start
-	align-items flex-end
+	align-items flex-start
+	margin-top 0px
 .img-responsive
-	max-width 100%  
+	max-width 100% 
+.table-responsive
+	overflow hidden
+	overflow-x auto
+	table
+		width 100%
 .section
-	padding 95px 0
+	padding 30px 0
+	
+.section--block-1
+		h2
+			font-size 28px
+			line-height 30px
+		h1
+			font-size 34px
+			line-height 38px
+	.section--block-1 h1 + span
+		font-size 18px
+		line-height 20px
+	.section--block-1 .btns-group
+		flex-direction column
+		margin-top 40px
+		
+		.btn
+			margin-bottom 20px
+			height 50px
+			padding 15px 30px
+			line-height 25px
+.section--block-1__content
+	text-align center
 .section--block-1
 	background url('../images/park-bg.jpg') 0 0 no-repeat
 	color #fff
-	padding-top 100px
-	padding-bottom 60px
+	padding-top 30px
+	padding-bottom 30px
 	background-size cover
 	.btn
 		display inline-block
 	h2
 		font-family bold
-		font-size 50px
-		line-height 60px
 		font-family bold
 		margin-top 0
 	h1
-		font-size 80px
-		line-height 80px
 		color #fff
 		font-family bold
 		text-transform none
 	h1 + span
-		font-size 30px
-		line-height 60px
 		letter-spacing 0.6px
 		font-family bold
 	.btns-group
 		display flex
-		align-items flex-start
+		align-items center
 		justify-content flex-start
-		margin-top 120px
 		.btn.btn--fill
 			color #fff
 			background-color $pinkish-red
 			font-size 16px 
 			text-align center
 			line-height 25px
-			padding 25px 30px
-			margin-right 20px
+			
 		.btn--glass
 			background-color transparent
 			border solid 1px #fff
@@ -95,7 +115,6 @@ body
 			display inline-block
 			box-sizing border-box
 			font-family bold
-			height 70px
 			max-width 245px
 .section--block-1__days
 	height 89px
@@ -110,6 +129,7 @@ body
 	align-items stretch
 	padding 1px
 	justify-content space-between
+	margin auto
 	
 	div
 		text-align center
@@ -133,43 +153,45 @@ body
 	margin-top 17px
 	max-width 173px
 	white-space pre-wrap
+	margin 20px auto
+	text-align center
 .section--block-2
 	h2
-		font-size 50px
+		font-size 36px
 		font-family bold
 		color $denim-50
 		line-height .96
 		text-align center
 		margin-top 0
-		margin-bottom 50px
+		margin-bottom 30px
 	.section--block-2__subhead
 		color $denim
 		font-family bold
-		font-size 30px
+		font-size 20px
 		line-height 1.3
 		text-align center
 		max-width 1060px
 		margin 0 auto
-		margin-bottom 110px
+		margin-bottom 35px
 .section--block-2__box-content
-	padding-top 84px
-	margin-left 70px
+	padding-top 35px
+	margin-left 0px
 	
 	p
 		color $blue-grey
-		font-size 20px
-		line-height 28px
+		font-size 16px
+		line-height 24px
 		margin-top 0
 .section--block-2__box
 	box-shadow 0px -10px 45px 0 rgba(13,37,68,0.1)
-	padding 40px 40px 0
+	padding 10px 10px 0
 	background #fff
 	.row
 		box-shadow 0px 8px 10px -5px rgba(13,37,68,0.08)
 .section--block-2__box-list
-	margin-top 57px
+	margin-top 25px
 	padding-top 33px
-	margin-left 70px
+	margin-left 0px
 	position relative
 	&:before
 		content ''
@@ -192,22 +214,23 @@ body
 		&:nth-child(2)
 			flex 2 3 50%
 			color $denim
-			font-size 20px
+			font-size 16px
 			line-height 1
 		&:last-child
 			flex 2 1 auto
 			font-family bold
 			span
 				text-align right
-				font-size 20px
-				line-height 20px
+				font-size 16px
+				line-height 16px
 				display block
 				&:first-child
 					color $pinkish-red-two
 				&:last-child
 					color $blue-grey
 .section--block-2__map img
-	height 100%
+	height auto
+	max-width 100%
 .section--block-2__map
 	margin-bottom -5px
 .row + img
@@ -224,63 +247,63 @@ body
 	text-align center
 	color #fff
 	h2
-		font-size 50px
+		font-size 40px
 		line-height 48px
-		margin-bottom 40px
+		margin-bottom 20px
 	h2 + p
-		font-size 30px
-		line-height 39px
+		font-size 22px
+		line-height 30px
 		max-width 1090px
 		margin 0 auto
 .section--block-3__box
-	margin-top 95px
+	margin-top 35px
 	box-shadow 0px 30px 125px 0 $dark-indigo--40
 	background-color: #FFF
 	text-align left
 	color $denim
-	padding 40px
+	padding 20px
 	position relative
 	margin-bottom calc(-85px - 96px)
 	p
-		font-size 20px
-		line-height 27px
+		font-size 18px
+		line-height 22px
 		color $blue-grey
 	h3
 		font-family bold
 		color denim
 		font-size 20px
-		line-height 27px
-		margin-bottom 25px
+		line-height 24px
+		margin-bottom 0px
 .section--block-4
-	padding-top 180px
+	padding-top 150px
 	h2
 		color $denim-50
-		font-size 50px
+		font-size 40px
 		line-height 48px
 	p
 		color $denim
-		font-size 20px
-		line-height 28px
+		font-size 16px
+		line-height 22px
 	h3
 		color $denim
-		font-size 24px
-		line-height 27px
+		font-size 20px
+		line-height 24px
 		font-family bold
-		margin-left 70px
+		margin-left 0px
 .section--block-4__box
 	background #fff
-	border 20px solid #fff
+	border 10px solid #fff
 	box-shadow inset 0 0 0 5px $pale-grey
-	padding 50px
+	padding 30px
 	ul
-		column-count 2
+		column-count 1
 		column-gap(120px)
 		margin 0
 		padding 0
-		margin-left 70px
+		margin-left 20px
 		list-style none
-		line-height 30px
-		font-size 24px
+		line-height 22px
+		font-size 20px
 		color $denim
 		li
 			max-width 440px
@@ -295,12 +318,12 @@ body
 .section.section--block-5
 	padding-top 0
 	h2
-		padding-bottom 45px
+		padding-bottom 20px
 		border-bottom 3px solid $pinkish-red-two
-		font-size 50px
-		line-height 48px
+		font-size 40px
+		line-height 30px
 		color $denim-50
-		margin-bottom 0
+		margin-bottom 45
 		
 	table
 		tr
@@ -308,7 +331,7 @@ body
 				border-top 1px solid $bluey-grey
 				color $denim
 				font-size 20px
-				padding 12px 38px 3px 38px
+				padding 10px
 				&:last-child
 					font-family bold
 					text-align right
@@ -317,45 +340,50 @@ body
 				border-top 0
 	img
 		max-width 100%
-		margin-top -50px
+		margin-top 0px
 .section.section--block-6
 	padding-top 20px
-	padding-bottom 190px
+	padding-bottom 60px
 	.section--block-6__box
 		box-shadow 0px 30px 125px 0 $dark-indigo--40
-		padding 20px
+		padding 10px
 		img
 			max-width 100%
 	h2
 		color $denim-50
-		font-size 50px
+		font-size 40px
 		line-height 48px
-		margin-bottom 35px
+		margin-bottom 0px
+		margin-top 0
 	p
 		font-family bold
-		font-size 30px
-		line-height 39px
+		font-size 20px
+		line-height 24px
 		color $denim
 .section.section--block-7
-	padding-top 90px
+	padding-top 30px
 	padding-bottom 0px
 	background-color $dark-grey-blue
 	color #fff
+	img
+		max-width 100%
 	h2
 		border-bottom 1px solid $dusk
-		font-size 50px
+		font-size 30px
 		line-height 48px
 		padding-bottom 30px
 .section--block-7__tabsbox
 	background-color: #fff
-	padding 40px
+	padding 10px
 	box-shadow 0px 30px 145px 0 rgba(0, 5, 38, 0.5)
-	margin-left 105px
-	margin-bottom -140px
+	margin-left 0px
+	margin-bottom 0px
+	img
+		max-width 100%
 .section--block-7_tabs-nav
 	padding-left 0
-	relative(left -20px)
-	display flex
+	relative(left 0px)
+	display block
 	justify-content space-between
 	align-items center
 	max-width 1005px
@@ -368,11 +396,14 @@ body
 		border-radius 100%
 		display inline-block
 		border 1px solid $light-blue-grey-three
-		margin-left 30px
+		margin-left 10px
 		color $blue-grey-two
 		font-size 20px
 		text-align center
 		line-height 61px
+		margin-top 10px
+		&:first-child
+			margin-left 0
 	a.active
 		border-color $pinkish-red-two
 		color #fff
@@ -381,7 +412,7 @@ body
 		font-size 20px
 		font-family bold
 .section--block-7__legend
-	margin-top 57px
+	margin-top 20px
 	ul
 		list-style none
 		font-size 20px
@@ -389,10 +420,14 @@ body
 		color $blue-grey-two
 		padding-left 0
 		margin-top 40px
+		display flex
+		justify-content space-between
+		flex-wrap wrap
 		li
 			position relative
 			margin-bottom 30px
-			padding-left 80px
+			padding-left 60px
+			flex-basis 100%
 			&:before
 				content ''
 				width 40px
@@ -432,33 +467,447 @@ body
 				background-color $pale-grey-two
 				box-shadow 0px 15px 40px 0 $light-blue-grey-60, inset 0px 1px 0 0 $white-six-60
 	h3
-		font-size 30px
-		line-height 39px
+		font-size 24px
+		line-height 28px
 		margin-top 0
-.section--block-8
-	.slick-list
-		overflow initial
-		
-.section--block-8__slider
-	height 151px
-	background-color: #FFF		
-.section--block-8__slider-item
-	
+.stocks-img
+	display none
+// .section--block-8__slider-item
+// 	padding 100px
+.section--block-8__imgHolder
+	padding 20px
 	img
-		width 90px
-		height 75px
+		box-shadow 0px 40px 100px 0px rgba(21, 40, 96, 0.3)	
+		max-width 100%
+.section--block-8__slider
+	height auto
+	.slick-arrow
+		top auto
+		bottom 75px
+		z-index 200
+		width 41px
+		height 41px
+		background-color: $denim
+	.slick-prev
+		right 60%
+		left auto
+		&:before
+			content url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAaBAMAAABWeiG6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAFVBMVEXFyNPFyNPFyNPFyNPFyNPFyNMAAADplU3uAAAABXRSTlMAgH9AgRpZY1QAAAABYktHRAZhZrh9AAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4gIVCyUQc07LhgAAADZJREFUGNNjYAADIQZkwBhqgMwVDUSVdECRDBkAyVBkwOCKymUJFUDxjSuK8wdYGiVgGZygNABjuhRTQUshXgAAAABJRU5ErkJggg==')
+	.slick-next
+		right 30%
+		left auto
+		&:before
+			content url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAaBAMAAABWeiG6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAFVBMVEXFyNPFyNPFyNPFyNPFyNPFyNMAAADplU3uAAAABXRSTlMAf4FAgAwBC+kAAAABYktHRAZhZrh9AAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4gIVCyUQc07LhgAAADdJREFUGNNjYIAAIQZkwByqgMJ3DULhsqBLh6BJO9BWOhQZBKJyUVzKiOpQVG+wDIAkesBCgx0AX0EVf+vhQo8AAAAASUVORK5CYII=')
+.section--block-8
+	position relative
+	overflow hidden
+	padding-top 30px
+	&:before
+		content none
 	h3
-		display none
 		font-family bold
-		font-size 30px
+		font-size 24px
 		line-height 1.27
 		color $denim
-.section--block-8__slider-item.slick-current
-	h3
-		display block
-	img
-		width auto
+.section--block-8__head
+	display flex
+	justify-content center
+	margin-bottom 0
+	h2
+		text-align center
+		color $denim-50
+		font-size 40px
+		line-height 0.96
 		max-width 100%
+		padding-left 0px
+.section--block-8__sliderHead
+	padding-top 0px
+	padding-left 0px
+	height auto
+	max-width 390px
+	position relative
+	top 30px
+	margin auto
+	text-align center
+.section--block-8__sliderNav-outer
+	width 100%
+	height 75px
+	z-index 300
+	.section--block-8__sliderNav-item
+		width 100px
+		text-align center
+		img
+			margin auto
+.section--block-9
+	padding-top 30px
+	text-align center
+	h2
+		color $denim-50
+		font-size 30px
+		line-height 38px
+		margin-top 0
+.section--block-9__box
+	background-color $denim
+	box-shadow 0px 40px 120px 0 $denim-60
+	padding 10px
+	display flex
+	flex-wrap wrap
+	color #fff
+	justify-content space-between
+	align-items center
+	text-align left
+	font-size 16px
+	line-height 15px
+	.box__contact
+		color $bluey-grey
+.section--block-9__boxImg
+	flex 0 0 auto
+	margin 0 auto
+.section--block-9__boxName
+	flex 0 0 auto
+	p
+		white-space wrap
+.section--block-9__boxPart
+	flex 0 0 auto
+	padding-top 30px
+
+@media screen and (min-width 992px)
+	.section
+		padding 60px 0
+	.section--block-1
+		padding-left 20px
+		padding-right 20px
+		padding-top 40px
+		padding-bottom 90px
+		h2
+			font-size 50px
+			line-height 60px
+		h1
+			font-size 60px
+			line-height 80px
+	.section--block-1__content *
+		text-align left
+	.section--block-1 h1 + span
+		font-size 30px
+		line-height 60px
+		display inherit
+	.section--block-1__days
+		margin initial
+	.section--block-1__days-descriptor
+		text-align right
+		margin-right 0
+		margin-top 20px
+	.section--block-1 .btns-group
+		flex-direction row
+		margin-top 80px
+		align-items flex-start
+		.btn
+			margin-bottom 20px
+			height 70px
+			padding 25px 30px
+			line-height 25px
+		.btn.btn--fill
+			margin-right 20px
+	.content--xs-right
+		flex-direction column
+		justify-content flex-start
+		align-items flex-end
+		margin-top 0px
+		
+	.section--block-2__box
+		padding 40px 40px 0
+	.section--block-2
+		h2
+			font-size 40px
+			margin-top 0
+			margin-bottom 40px
+	.section--block-2__subhead
+		font-size 30px
+		margin-bottom 45px
+	.section--block-2__map img
+		height 100%
+	.section--block-2__box-content
+		padding-top 84px
+		margin-left 70px
+	.section--block-2__box-content
+	
+		p
+			font-size 20px
+			line-height 28px
+	.section--block-2__box-list
+		margin-top 57px
+		padding-top 33px
+		margin-left 70px
+	.section--block-2__box-row
+		span
+			&:nth-child(2)
+				font-size 20px
+			&:last-child
+				span
+					font-size 20px
+					line-height 20px
+	.section--block-3
+		h2
+			font-size 50px
+			line-height 48px
+			margin-bottom 40px
+		h2 + p
+			font-size 30px
+			line-height 39px
+	.section--block-3__box
+		margin-top 95px
+		padding 40px
+		border 20px solid #fff
+		p
+			font-size 20px
+			line-height 27px
+		h3
+			font-size 20px
+			line-height 27px
+			margin-bottom 25px
+			margin-left 0
+	.section--block-4
+		padding-left 20px
+		padding-right 20px
+	.section--block-4__box
+		border-width 20px
+	.section--block-4__box ul
+		column-count 2
+		margin-left 70px
+		line-height 30px
+		font-size 24px
+		padding 0px
+	.section--block-4
+		padding-top 180px
+		h2
+			font-size 50px
+			line-height 48px
+		p
+			font-size 20px
+			line-height 28px
+		h3
+			font-size 24px
+			line-height 27px
+			margin-left 70px
+	.section--block-9__box
+		padding 50px
+		display flex
+		justify-content space-between
+		align-items center
+		text-align left
+	.section--block-9__boxImg
+		flex 1 0 150px
+	.section--block-9__boxName
+		flex 3 0 345px
+	.section--block-9__boxPart
+		flex 2 0 450px
+		padding-top 30px
+	.section--block-9
+		padding-top 120px
+		h2
+			font-size 50px
+			line-height 48px
+			margin-top 0
+	.section.section--block-5
+		padding-left 20px
+		padding-right 20px
+		h2
+			padding-bottom 45px
+			font-size 50px
+			line-height 48px
+			margin-bottom 45
+		
+		table
+			tr
+				td
+					padding 12px 38px 3px 38px
+		img
+			max-width 100%
+			margin-top -50px
+	.section.section--block-6
+		padding-top 20px
+		padding-bottom 120px
+		.section--block-6__box
+			padding 20px
+		h2
+			font-size 50px
+			line-height 48px
+			margin-bottom 35px
+			margin-top 50px
+		p
+			font-size 30px
+			line-height 39px
+	.section.section--block-7
+		padding-top 40px
+		padding-bottom 0px
+		padding-left 20px
+		padding-right 20px
+		h2
+			font-size 50px
+			line-height 48px
+			padding-bottom 30px
+	.section--block-7__tabsbox
+		padding 40px
+		margin-left 105px
+		margin-bottom 20px
+	.section--block-7_tabs-nav
+		padding-left 0
+		relative(left -20px)
+		display flex
+		justify-content space-between
+		align-items center
+		max-width 1005px
+		margin-bottom 20px
+		div
+			display flex
+		a
+			margin-left 30px
+			font-size 20px
+			line-height 61px
+		.stock
+			font-size 20px
+	.section--block-7__legend
+		margin-top 57px
+		ul
+			font-size 20px
+			line-height 100%
+			padding-left 0
+			margin-top 40px
+			li
+				margin-bottom 30px
+				flex-basis 50%
+			
+		h3
+			font-size 30px
+			line-height 39px
+			margin-top 0
+	
+	.section--block-8__imgHolder
+		padding 20px 20px 100px 20px
+		img
+			max-width 100%
+			margin auto
+	.section--block-8__slider
+		height 756px
+		.slick-arrow
+			top auto
+			bottom 0px
+			z-index 200
+			width 61px
+			height 61px
+			background-color: $denim
+		.slick-prev
+			right 50%
+			left auto
+			&:before
+				content url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAaBAMAAABWeiG6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAFVBMVEXFyNPFyNPFyNPFyNPFyNPFyNMAAADplU3uAAAABXRSTlMAgH9AgRpZY1QAAAABYktHRAZhZrh9AAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4gIVCyUQc07LhgAAADZJREFUGNNjYAADIQZkwBhqgMwVDUSVdECRDBkAyVBkwOCKymUJFUDxjSuK8wdYGiVgGZygNABjuhRTQUshXgAAAABJRU5ErkJggg==')
+		.slick-next
+			right 40%
+			left auto
+			&:before
+				content url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAaBAMAAABWeiG6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAFVBMVEXFyNPFyNPFyNPFyNPFyNPFyNMAAADplU3uAAAABXRSTlMAf4FAgAwBC+kAAAABYktHRAZhZrh9AAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4gIVCyUQc07LhgAAADdJREFUGNNjYIAAIQZkwByqgMJ3DULhsqBLh6BJO9BWOhQZBKJyUVzKiOpQVG+wDIAkesBCgx0AX0EVf+vhQo8AAAAASUVORK5CYII=')
+	
+	.section--block-8
+		position relative
+		overflow hidden
+		padding-top 150px
+		padding-bottom 0
+		&:before
+			content ""
+			height 151px
+			width 3000px	
+			background-color: #FFF
+			absolute(top 376px left 0)
+		h3
+			font-family bold
+			font-size 30px
+			line-height 1.27
+			color $denim
+	.section--block-8__head
+		display flex
+		justify-content center
+		h2
+			text-align center
+			color $denim-50
+			font-size 50px
+			line-height 0.96
+			padding-left 0px
+	.section--block-8__sliderHead
+		padding-top 180px
+		padding-left 0px
 		height auto
-		absolute(top -207px)
+		max-width 390px
+	.section--block-8__sliderNav-outer
+		width 35.7%
+		height 75px
+		z-index 300
+		margin auto
+		.section--block-8__sliderNav-item
+			width 100px
+			margin 0 20px
+@media screen and (min-width 1200px)
+	.stocks-img
+		display block
+	.section--block-7__tabsbox
+		margin-bottom -140px
+	.section--block-7__legend
+		ul
+			display block
+		li
+			padding-left 80px
+	.section--block-8__sliderNav-outer
+		absolute(right 0 top 415px)
+	.section--block-8__head
+		display flex
+		justify-content flex-end
+		margin-bottom -190px
+		h2
+			text-align left
+			max-width 33%
+	.section--block-9
+		padding-top 0px
+	.section--block-8
+		.slick-arrow
+			bottom 100px
+		.slick-prev
+			right 26%
+		.slick-next
+			right 20%
+	.section--block-8__sliderHead
+		text-align left
+@media screen and (min-width 1500px)
+	.section
+		padding 95px 0
+	.section--block-1
+		padding-top 120px
+		padding-bottom 60px
+		padding-left 0
+		padding-right 0
+		height 100vh
+	.section--block-1 h1
+		font-size 80px
+	.section--block-1 .btns-group
+		margin-top 80px
+	.section--block-4
+		padding-left 0px
+		padding-right 0px
+	.section.section--block-5
+		padding-left 0
+		padding-right 0
+	.section.section--block-6
+		padding-bottom 190px
+	.section.section--block-7
+		padding-bottom 40px
+		padding-left 0
+		padding-right 0
+	.section--block-8
+		padding-bottom 30px
+	.section--block-8__imgHolder
+		padding-left 60px
+	.section--block-8__sliderHead
+		padding-left 36px
+		padding-left 0px
+		margin-left 0
+	.section--block-8__slider .slick-prev
+		right 28.5%
 	
